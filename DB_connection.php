@@ -1,11 +1,6 @@
 <?php
-
-$con = mysqli_connect("localhost", "root", "qwerty","shopSport");
-
-
-if(!$con){
-    die("Connection failed" . mysqli_connect_errno());
+$con = mysqli_connect("localhost", "root", "", "shopsport") or die(mysqli_error($con));
+if(!isset($_SESSION)){
+    session_start();
 }
-
-
 ?>

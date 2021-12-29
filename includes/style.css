@@ -1,0 +1,13 @@
+.footer{
+postion: fixed;
+padding: 10px 0;
+background-color: #101010;
+color: #9d9d9d;
+bootom: 0;
+width: 100%;
+}
+
+
+.bootomLine {
+    position: absolute;
+}
