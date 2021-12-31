@@ -15,9 +15,16 @@ if (isset($_SESSION['email'])) {
     <title>Sport Shop</title>
 </head>
 <body>
-<img src="Zrzut%20ekranu%202021-12-10%20235856.png" alt="php">
-<h1>Hello!</h1>
-<?php include ("includes/header.php")?>
-<?php include ("includes/footer.php")?>
+<?php include ("includes/header.php"); ?>
+<h2>Witaj w naszym sklepie!</h2>
+<h3>Mamy najlepsze wyposażenie sportowe dla osób pasjonujących się sportem</h3>
+<ul>
+    <li>Odzież</li>
+    <li>Buty na siłownię</li>
+    <li>Suplementy i odżywki</li>
+    <li>Trening fitness</li>
+    <li>Trening siłowy</li>
+</ul>
+<?php include ("includes/footer.php"); ?>
 </body>
 </html>

@@ -14,8 +14,8 @@ include 'includes/header.php';
 ?>
 
 <br>
-<p>You have been logged out. <a href="login_form.php">Login again.</a></p>
-
+<p>Zostałeś wylogowany.<a href="login_form.php">Zaloguj się ponownie.</a></p>
+<br>
 
 <?php
 include 'includes/footer.php';

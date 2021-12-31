@@ -16,16 +16,16 @@ if(isset($_SESSION['email'])){
     <title>Document</title>
 </head>
 <body>
-<h1> SIGN UP </h1>
+<h1> Zarejestruj się </h1>
 <form action="register_submit.php" method="POST">
-        <input type="text"  class="form-control" placeholder="Name" name="name"  required>
-        <input type="email"  class="form-control" placeholder="Email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+        <input type="text"  class="form-control" placeholder="Nazwa użytkownika" name="name"  required><br>
+        <input type="email"  class="form-control" placeholder="Email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required><br>
         <?php
         if(isset($_GET["m1"])){
             echo $_GET['m1'];
         }
         ?>
-        <input type="password"  class="form-control" placeholder="Password" name="password" pattern=".{6,}" required>
+        <input type="password"  class="form-control" placeholder="Hasło" name="password" pattern=".{6,}" required><br>
     <button class="btn btn-primary">Submit</button>
 </form>
 </body>

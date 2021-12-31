@@ -13,14 +13,14 @@ $num = mysqli_num_rows($result);
 
  if($num == 0){
 $error = $_GET['error'];
-$error = "<span class='red'>Enter correct email and password combination</span>";
+$error = "<span class='red'>Podaj prawidłową kombinację hasło i emaila</span>";
 header('location: login_form.php?error='.$error);
 
 }else{
 
 	$row = mysqli_fetch_array($result);
 	$_SESSION['email'] =$row['email'];
-	$_SESSION['user_id'] = $row['id'];
-	header('location: index.html');
+	$_SESSION['userId'] = $row['id'];
+	header('location: index.php');
 }
 ?>
