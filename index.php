@@ -12,11 +12,14 @@ if (isset($_SESSION['email'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="includes/style.css"/>
     <title>Sport Shop</title>
 </head>
 <body>
 <?php include ("includes/header.php"); ?>
-<h2>Witaj w naszym sklepie!</h2>
+
+<img src="images/crossfit.jpg" title="Sport" header="Title image" width="400" height="300" align="bottom" >
+    <h2>Witaj w naszym sklepie!</h2>
 <h3>Mamy najlepsze wyposażenie sportowe dla osób pasjonujących się sportem</h3>
 <ul>
     <li>Odzież</li>
@@ -25,6 +28,7 @@ if (isset($_SESSION['email'])) {
     <li>Trening fitness</li>
     <li>Trening siłowy</li>
 </ul>
+
 <?php include ("includes/footer.php"); ?>
 </body>
 </html>

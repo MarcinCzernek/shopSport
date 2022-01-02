@@ -5,7 +5,7 @@ function check_if_added_to_cart($itemId) {
     require("DB_connection.php");
 
 
-    $query = "SELECT * FROM selected_items WHERE itemId='$itemId' AND userId ='$userId' and status='Added to cart'";
+    $query = "SELECT * FROM selected_items WHERE itemId='$itemId' AND userId ='$userId' and status='Dodano do koszyka'";
     $result = mysqli_query($con, $query) or die(mysqli_error($con));
 
 

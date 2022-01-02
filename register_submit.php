@@ -25,9 +25,9 @@ if($num != 0){
 }else{
  $query = "INSERT INTO users(name, email, password)VALUES('" . $username . "','" . $email . "','" . $password . "')";
  mysqli_query($con, $query) or die(mysqli_error($con));
- $user_id = mysqli_insert_id($con);
+ $userId = mysqli_insert_id($con);
  $_SESSION['email'] = $email;
- $_SESSION['user_id'] = $user_id;
+ $_SESSION['userId'] = $userId;
 header('location: products.php');
 }
 ?>

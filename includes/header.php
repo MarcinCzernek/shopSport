@@ -4,7 +4,7 @@
     <?php
     if(isset($_SESSION['email'])) {
         ?>
-        <li><a href="cart.php"><span class="glyphicon glyphicon-shopping-cart"></span><b> Koszyk</b></a></li>
+        <li><a href="selected_items.php"><span class="glyphicon glyphicon-shopping-cart"></span><b> Koszyk</b></a></li>
         <li><a href="settings.php"><span class="glyphicon glyphicon-user"></span><b> Ustawienia</b></a></li>
         <li><a href="logout.php"><span class="glyphicon glyphicon-log-in"></span><b> Wyloguj się</b></a></li>
 
