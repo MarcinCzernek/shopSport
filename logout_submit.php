@@ -15,8 +15,10 @@ include 'includes/header.php';
 ?>
 
 <br>
-<p>Zostałeś wylogowany.<a href="login_form.php">Zaloguj się ponownie.</a></p>
-<br>
+<p style="margin:10px">Zostałeś wylogowany.</p><br><a href="login_form.php" class="btn"><br>Zaloguj się ponownie.</a><br>
+<a href="index.php" class="btn"><br>Wróć do strony głównej.</a>
+
+
 
 <?php
 include 'includes/footer.php';
