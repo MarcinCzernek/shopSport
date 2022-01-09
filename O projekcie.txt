@@ -1,0 +1,15 @@
+Internetowy sklep sportowy "Sports shop"
+
+Internetowy sklep jest projektem stworzonym przy uzyciu HTML, CSS i Bootstrap od strony front-endu a od strony back-endu w języku PHP.
+Uzytkownicy muszą zarejestrować i zalogować się do systemu aby móc dodawać produkty sportowe do koszyka, a także usuwać je zgodnie z ich życzeniem.
+Ponadto, mogą oni potwierdzić zamówienie do dalszego procesu.
+Mogą także w ustawieniach konta zmienić hasło swojego konta lub całkowcie usunać swoje konto.
+Projekt umożliwia administratorowi sklepu/inwentaryzacji wygodne prowadzenie ewidencji produktów i zamówień w odpowiedni sposób.
+
+Nasz sklep internetowy korzysta z bazy danych MySQL. Do bazy danych dodawani są nowo zarejestrowani użytkownicy oraz są w nim przechowywane produkty które można kupić,
+a także produkty dodane przez użytkownika do koszyka. 
+Gdy użytkownik postanowi usunąc swoje konto z serweru jego dane są usuwane z bazy danych.
+
+----------------------------------------------------------------------------
+Projekt zrealizowali:
+Iwona Danel i Marcin Czernek studenci informatyki, semestr 5, studia niestacjonarne

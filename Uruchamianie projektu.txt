@@ -1,0 +1,15 @@
+Projekt do uruchomienia wymaga wirtualnego serwera XAMPP na komputerze.
+
+Po uruchomieniu Apache i MySQL w XAMPP, aby uruchomic projekt trzeba wykonać następujące kroki:
+
+1: Wypakować plik
+2: Skopiować główny folder projektu
+3: Wkleić do folderu xampp/htdocs/
+4: Otworzyć przeglądarkę i wejść na URL "http://localhost/phpmyadmin/"
+5: Następnie wybrać zakładkę bazy danych
+6: Utwórzyć bazę danych o nazwie "shopsport", a następnie kliknąć na zakładkę "Import".
+7: Kliknąć na przeglądaj pliki i wybrać plik "shopsport.sql"
+8: Kliknąć na Wykonaj.
+
+Po utworzeniu bazy danych,
+9: Otwórzyć przeglądarkę i przejśc do adresu URL "http://localhost/shopSport/"

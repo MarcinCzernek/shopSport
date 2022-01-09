@@ -19,13 +19,17 @@ if(isset($_SESSION['email'])){
 </head>
 <body>
 <?php include ("includes/header.php")?>
-<form class="loginTab" method="post" action="login_submit.php">
-    <H3>ZALOGUJ SIĘ</H3>
-    <p>Zaloguj się, aby dokonać zakupu<p>
-    Email:<input type="text" name="email"><br>
-    Hasło:<input type="password" name="password"><br><br>
-<button>Zaloguj się</button>
+<br><br><br><br>
+<center>
+<form class="headset" method="post" action="login_submit.php">
+    <H2>Zaloguj się</H2>
+    <p>Zaloguj się, aby dokonać zakupu<p><br>
+    <input type="text" class="form-control" name="email" placeholder="Email"><br>
+    <input type="password" class="form-control" name="password" placeholder="Hasło"><br><br>
+        <button class="btn btn-primary">Zaloguj się</button>
 </form>
+    <center>
+        <br><br><br><br>
 <?php include ("includes/footer.php")?>
 </body>
 </html>

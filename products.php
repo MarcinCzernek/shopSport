@@ -38,6 +38,8 @@ echo "Witaj " . $_SESSION['email'];
     }
     ?>
 
+</div>
+
     <br><br>
 
 <div class="description">
@@ -79,7 +81,7 @@ echo "Witaj " . $_SESSION['email'];
 
 <div class="description">
     <img src="images/item4.png" height="300" width="350">
-    <h3>KFD Vitapak-witaminy i minerały organiczne-</h3>
+    <h3>KFD Vitapak - witaminy i minerały organiczne</h3>
     <p>Cena: 24.99</p>
     <?php
     if(check_if_added_to_cart(4)) {
@@ -91,7 +93,7 @@ echo "Witaj " . $_SESSION['email'];
     }
    ?>
 </div>
-
+<br><br><br>
 <?php include "includes/footer.php"; ?>
 </body>
 </html>

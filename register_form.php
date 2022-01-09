@@ -17,8 +17,12 @@ if(isset($_SESSION['email'])){
     <title>Zarejestruj się</title>
 </head>
 <body>
-<h1> Zarejestruj się </h1>
-<form action="register_submit.php" method="POST">
+<?php include "includes/header.php" ?>
+<br><br><br><br>
+<center>
+<form action="register_submit.php" method="POST" class="headset">
+    <h2> Zarejestruj się </h2>
+    <p>Utwórz nowe konto<p><br>
         <input type="text"  class="form-control" placeholder="Nazwa użytkownika" name="name"  required><br>
         <input type="email"  class="form-control" placeholder="Email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required><br>
         <?php
@@ -27,7 +31,10 @@ if(isset($_SESSION['email'])){
         }
         ?>
         <input type="password"  class="form-control" placeholder="Hasło" name="password" pattern=".{6,}" required><br>
-    <button class="btn btn-primary">Submit</button>
+    <button class="btn btn-primary">Prześlij</button>
 </form>
+    <center>
+        <br><br><br><br>
+        <?php include "includes/footer.php"?>
 </body>
 </html>
